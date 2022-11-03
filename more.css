@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-image: url(../html/img/Untitled\ \(22\).png);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 93%, 48% 99%, 48% 93%, 0 100%, 0% 43%, 0 0);
+
+}
+h1{
+    color: azure;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 65px;
+    padding-left: 90px;
+}
+h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family:  sans-serif;
+    padding-top: 65px;
+    color: #1B448D;
+}
+p{
+ padding-left: 50px;
+ text-align: center;
+    color: black;
+    font-family: sans-serif;
+    line-height: 30px; 
+}
+.sign{
+    padding: 13px;
+    
+    color: azure;
+    background-color: #1B448D;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 580px;
+}
+.sign:hover{
+    background-color: #1b458ddc;
+    cursor: pointer;
+}
+.contact{
+    padding: 13px;
+    color: black;
+    background-color: rgba(124, 128, 128, 0.618);
+    border: none;
+    border-radius: 18px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 80px;
+
+}
+.contact:hover{
+    background-color:rgba(225, 225, 225, 0.925);
+    cursor: pointer;
+}
+
+footer{
+    height: 15vh;
+    background-color: #1B448D;
+}
+
+a{
+    color: #042d74;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding:0rem;
+    text-align:  right;
+
+    left: 30px;
+    padding: 16px;
+}
+li  {
+display: inline-block;
+margin-inline: 2.6rem;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+a:hover{
+  color: #6a8fce;
+    text-decoration: none;
+    
+}
